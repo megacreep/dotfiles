@@ -8,6 +8,8 @@ if filereadable(expand("~/.vimrc.before"))
   source ~/.vimrc.before
 endif
 
+source $LOCAL_ADMIN_SCRIPTS/master.vimrc
+
 " ================ General Config ====================
 
 set number                      "Line numbers are good
@@ -115,3 +117,5 @@ set smartcase       " ...unless we type a capital
 
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
+autocmd FileType php setlocal iskeyword+=:,-
+

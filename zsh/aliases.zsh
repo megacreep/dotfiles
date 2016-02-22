@@ -27,6 +27,9 @@ alias psr='ps aux | grep ruby'
 # Moving around
 alias cdb='cd -'
 alias cls='clear;ls'
+alias w='cd ~/www'
+alias f='cd ~/www/flib'
+alias zero='cd ~/www/flib/mobile/zero'
 
 # Show human friendly numbers and colors
 alias df='df -h'
