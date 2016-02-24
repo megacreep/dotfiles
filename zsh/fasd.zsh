@@ -9,9 +9,9 @@ unset fasd_cache
 
 
 # jump to recently used items
-alias a='fasd -a' # any
-alias s='fasd -si' # show / search / select
-alias d='fasd -d' # directory
-alias f='fasd -f' # file
-alias z='fasd_cd -d' # cd, same functionality as j in autojump
-alias zz='fasd_cd -d -i' # interactive directory jump
+alias fa='fasd -a' # any
+alias fs='fasd -si' # show / search / select
+alias fd='fasd -d' # directory
+alias ff='fasd -f' # file
+alias fz='fasd_cd -d' # cd, same functionality as j in autojump
+alias fzz='fasd_cd -d -i' # interactive directory jump

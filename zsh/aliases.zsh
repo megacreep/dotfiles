@@ -27,13 +27,12 @@ alias psr='ps aux | grep ruby'
 # Moving around
 alias cdb='cd -'
 alias cls='clear;ls'
-alias w='cd ~/www'
-alias f='cd ~/www/flib'
-alias zero='cd ~/www/flib/mobile/zero'
+alias cw='cd ~/www'
+alias cf='cd ~/www/flib'
+alias czero='cd ~/www/flib/mobile/zero'
 
 # Show human friendly numbers and colors
 alias df='df -h'
-alias du='du -h -d 2'
 
 if [[ $platform == 'linux' ]]; then
   alias ll='ls -alh --color=auto'
