@@ -8,6 +8,8 @@ if filereadable(expand("~/.vimrc.before"))
   source ~/.vimrc.before
 endif
 
+source $LOCAL_ADMIN_SCRIPTS/master.vimrc
+
 " ================ General Config ====================
 
 set number                      "Line numbers are good
