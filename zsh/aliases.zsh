@@ -219,4 +219,12 @@ alias todo='open nvalt://find/todo'
 
 # Facebook
 alias d='hphpd -h localhost'
+alias hcm='hg commit -m'
+alias hst='hg st'
+alias hsl='hg sl'
+alias hsc='hg st --change .'
+alias hdf='hg diff'
+alias hso='hg show'
+alias ham='hg amend'
+alias new='arc feature'
 
