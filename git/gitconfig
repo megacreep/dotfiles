@@ -125,10 +125,6 @@
   enabled = true
 [include]
   path = .gitconfig.user
-[https]
-	proxy = fwdproxy:8080
-[http]
-	proxy = fwdproxy:8080
 [user]
-	name = megacreep9
 	email = limuyang08@gmail.com
+	name = megacreep

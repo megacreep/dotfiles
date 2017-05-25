@@ -218,6 +218,10 @@ alias todo='open nvalt://find/todo'
 #alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
 
 # Facebook
+alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
+
+# hg
+alias ap='arc pull'
 alias d='hphpd -h localhost'
 alias hcm='hg commit -m'
 alias hst='hg st'
@@ -227,4 +231,5 @@ alias hdf='hg diff'
 alias hso='hg show'
 alias ham='hg amend'
 alias new='arc feature'
+alias hre='hg reset .^'
 
