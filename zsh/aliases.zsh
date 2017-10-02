@@ -215,13 +215,13 @@ alias todo='open nvalt://find/todo'
 #alias dbmu='spring rake db:migrate:up'
 #
 # Homebrew
-#alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
-
-# Facebook
 alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
 
 # hg
 alias ap='arc pull'
+#alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
+
+# Facebook
 alias d='hphpd -h localhost'
 alias hcm='hg commit -m'
 alias hst='hg st'
