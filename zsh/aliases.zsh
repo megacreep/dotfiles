@@ -230,6 +230,4 @@ alias hsc='hg st --change .'
 alias hdf='hg diff'
 alias hso='hg show'
 alias ham='hg amend'
-alias new='arc feature'
-alias hre='hg reset .^'
 
